@@ -16,7 +16,7 @@ jobs:
             name: Linux
           - os: macos-13
             name: Mac
-          - os: windows-2019
+          - os: windows-latest
             name: Windows
       fail-fast: false
     runs-on: ${{ matrix.os }}
